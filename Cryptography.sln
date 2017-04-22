@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital Signature Algorithm(DSA)", "Digital Signature Algorithm(DSA)\Digital Signature Algorithm(DSA).csproj", "{194D7E41-1373-4598-8379-7E2E3F8C73FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA", "..\Исходники\RSA\protect_inf_LR1\RSA.csproj", "{5B727DC1-F170-4C3C-B94E-F0851D7BCE30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{194D7E41-1373-4598-8379-7E2E3F8C73FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194D7E41-1373-4598-8379-7E2E3F8C73FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194D7E41-1373-4598-8379-7E2E3F8C73FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B727DC1-F170-4C3C-B94E-F0851D7BCE30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B727DC1-F170-4C3C-B94E-F0851D7BCE30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B727DC1-F170-4C3C-B94E-F0851D7BCE30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B727DC1-F170-4C3C-B94E-F0851D7BCE30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
