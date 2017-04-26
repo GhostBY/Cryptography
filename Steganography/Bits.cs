@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+* Соколов М.А.
+* Класс для работы с битами.
+*/
 
-namespace Steganography_.bmp_
+using System;
+using System.Collections;
+
+namespace NET
 {
-    public class Bits
+    /// <summary>
+    /// Класс для работы с битами.
+    /// Биты хранятся в массиве типа ArrayList, для облегчения работы с ними.
+    /// </summary>
+    class Bits
     {
         private ArrayList bits = new ArrayList();
 
-        private int len = 0, num = 0;
+        private int len = 0, num = 0; 
 
         /// <summary>
         /// Конструктор. Переводит целое значение в двоичный вид.
@@ -49,7 +54,7 @@ namespace Steganography_.bmp_
                 if (value[i] == '0') bits.Add(0);
                 else bits.Add(1);
         }
-
+        
         /// <summary>
         /// Свойство. Возвращает текущее количество бит.
         /// </summary>
@@ -110,7 +115,7 @@ namespace Steganography_.bmp_
         {
             if ((int)value == 0) bits.Add(0);
             else bits.Add(1);
-
+            
             len++;
         }
 
