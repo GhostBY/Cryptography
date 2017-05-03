@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA Algorithm", "RSA Algori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiat-Shamir", "Fiat-Shamir\Fiat-Shamir.csproj", "{557AA274-BF87-480C-A9EA-431642FFD304}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET", "Steganography\NET.csproj", "{7FF61CB4-B3F7-469C-AF0C-03CD0BC7EC97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steganography", "Steganography\Steganography.csproj", "{7FF61CB4-B3F7-469C-AF0C-03CD0BC7EC97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steganography(win-1251)", "Stegonagraphy(win-1251)\Steganography(win-1251).csproj", "{21396B6C-66D4-42E9-A166-57B1A8621FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA(WinForm)", "DSA(WinForm)\WindowsFormsApplication1\DSA(WinForm).csproj", "{EE346A61-3C6B-42C9-86F2-0F4613D813FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,14 @@ Global
 		{21396B6C-66D4-42E9-A166-57B1A8621FCD}.Release|Any CPU.ActiveCfg = Release|x86
 		{21396B6C-66D4-42E9-A166-57B1A8621FCD}.Release|x86.ActiveCfg = Release|x86
 		{21396B6C-66D4-42E9-A166-57B1A8621FCD}.Release|x86.Build.0 = Release|x86
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{EE346A61-3C6B-42C9-86F2-0F4613D813FB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
